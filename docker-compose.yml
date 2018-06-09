@@ -25,7 +25,7 @@ services:
       - db
       - services
     ports:
-      5000:5000
+      - 5000:5000
   frontend:
     build: ./sammy-app
     networks:
