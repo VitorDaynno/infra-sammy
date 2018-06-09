@@ -17,7 +17,7 @@ services:
     restart: always
     build: ./annabeth
     image: annabeth
-    enviroment:
+    environment:
       - DB_SERVER=mongo-annabeth
       - DB_NAME=annabeth
       - PORT=5000
