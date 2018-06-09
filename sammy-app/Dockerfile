@@ -4,7 +4,7 @@ RUN apt-get update
 
 WORKDIR /app
 
-RUN git clone https://mathmat@bitbucket.org/vitorDaynno/annabeth.git && \
+RUN git clone https://github.com/wtfdiov/sammy-app && \
     npm install --production && \
     npm run build
 
